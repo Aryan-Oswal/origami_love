@@ -1,0 +1,84 @@
+.header_container {
+    background-color: #EA80FC;
+    border-radius: 10px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+body {
+    background-color: #202225;
+}
+.header_container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    right: 10%;
+}
+
+.header_container a {
+    margin: 50px;
+    align-self: flex-end;
+    text-decoration: none;
+    color: #202225;
+    font-weight: bold;
+    font-size: large;
+}
+
+.header_container a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+    transition: color 2s ease;
+}
+
+.origami_1 img, .origami_2 img, .origami_3 img ,.origami_4 img, .origami_5 img {
+    width: 20rem;
+}
+
+.origami_1  {
+    margin-top: 8rem;
+}
+.origami_2 {
+    margin-top: 58rem;
+}
+.origami_3 {
+    margin-top: 108rem;
+}
+
+.origami_4 {
+    margin-top: 158rem;
+}
+.origami_5 {
+    margin-top: 208rem;
+}
+.origami_title {
+    color: #ef4c56;
+    font-size: 30px;
+}
+.facts {
+    font-size: 20px;
+    color: #9140f3;
+}
+.facts li {
+    color: #ae7fe7;
+    padding: 20px;
+}
+
+.origami_1 , .origami_2 , .origami_3  ,.origami_4 , .origami_5{
+    align-items: center;
+    justify-content: center;
+    width: 560px;
+    position: absolute;
+    left: 30vw;
+    text-align: center;
+    border: 5px solid #c7a7f0;
+    border-radius: 20px;
+}
+
+.origami_container {
+    align-items: center;
+    justify-content: center;
+}
