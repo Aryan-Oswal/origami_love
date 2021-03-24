@@ -34,6 +34,11 @@ body {
     transition: color 2s ease;
 }
 
+.origami_container img:hover {
+    transform: scale(1.2);
+    
+}
+
 .origami_1 img, .origami_2 img, .origami_3 img ,.origami_4 img, .origami_5 img {
     width: 20rem;
 }
